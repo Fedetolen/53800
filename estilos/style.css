@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:#343434;
+}
+
+/* comienzo del nav */
+
+.navbar{
+    background: #000;
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    color: #C600EB!important;
+    font-size: 1.4rem;
+}
+
+.navbar-brand span {
+    color: #FF1439;
+}
+
+.nav-item .nav-link {
+
+    color: #39FF14!important;
+    transition: all .5s ease;
+    padding: 1.5rem;
+
+}
+
+.nav-item .nav-link:hover {
+    transform: scale(1.2);
+    text-shadow: 0 0 25px #39FF14;
+}
+
+.navbar-collapse {
+
+    justify-content: space-between!important;
+}
+
+
+/* .header .navLogo {
+    text-decoration: none;
+    color: #1439FF; */
+    /* //color: #FF1439; */
+    /* //color: #C600EB; */
+    /* font-weight: bold;
+    font-size: 1.4rem;
+} */
+
+/* .header .navLogo span {
+    color: #FF1439;
+}
+
+.header .navMenu {
+    display: flex;
+        
+} */
+
+/* .header .navMenu .navLink {
+    text-decoration: none;
+    color: #39FF14;
+    padding: .5rem;
+    font-size: 1.2rem;
+    transition: all .5s ease;
+} */
+
+/* .header .navMenu .navLink:hover {
+    font-size: 1.4rem;
+    text-shadow: 0 0 25px #39FF14;
+} */ */
+
+.elemento-fade-in {
+    opacity: 0; /* Inicialmente el elemento está completamente transparente */
+    transition: opacity 1s ease; /* Se define una transición para la propiedad de opacidad */
+}
+
+.elemento-fade-in.visible {
+    opacity: 1; /* Cuando se agrega la clase 'visible', el elemento se vuelve completamente visible */
+}
+
+
+.heroIndex {
+    background-image: url(../img/hero1.jpg);
+    width: 100%;
+    height: 130vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+}
+
+.heroIndex h1 {
+    font-size: 4.5rem;
+    padding: 0 1.2rem;
+    
+}
+
+.heroIndex p {
+    padding: 0 1.2rem;
+}
+
+.mainIndex {
+    color: white;
+
+}
+
+
+
+.mainIndex h2 {
+    padding: 1.5rem 1.2rem}
+    .coleccion {
+        background-image: url(../img/productos.jpg);
+        height: 80vh;
+        background-position: center center;
+    }
+    
+    .comprometidos {
+        background-image: url(../img/calidad.jpg);
+        height: 80vh;
+        background-position: center center;
+    }
+    
+    .atencion {
+        background-image: url(../img/atencion2.jpg);
+        height: 80vh;
+        background-position: center top;
+    }
+    
+    .heroIndex a,.atencion a,.comprometidos a,.coleccion a{
+        text-align: center;
+        display: block;
+        font-size: 1.5rem;
+        color: white;
+        font-weight: 700;
+        position: relative;
+        bottom: -55vh;
+        transition: all .5s ease;
+    }
+    
+    .heroIndex a:hover,.atencion a:hover,.comprometidos a:hover,.coleccion a:hover{
+        font-size: 1.8rem;
+        color: #1439FF;
+    }
+    
+    
+    
+    .ribbon {
+        position: relative;
+        width: 100%;
+        height: 12.5rem;
+        background-color: #343434;
+    }
+    
+    /* PRODUCTOS */
+    
+    .mainProducto {
+    
+        text-align: center;
+        font-size: 3.5rem;
+        color: white;
+        mix-blend-mode: screen;
+        font-size: 1.8rem;
+        padding: 3rem 0;
+    }
+    
+    
+    .productos a{
+        
+        color:#fff;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5rem;
+        transition: all .5s ease-in-out;
+        
+    }
+    
+    .productos a:hover {
+        font-size: 1.8rem;
+        color: #1439FF;
+    }
+    
+    .productos div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 30px;
+    }
+    
+    .productos p {
+        color: white;
+    }
+    
+    /* Destacados */
+    .destacados {
+        width: 100%;
+    }
+    
+    .destacados h1 {
+        text-align: center;
+        font-size: 3.5rem;
+        color: white;
+        mix-blend-mode: screen;
+        font-size: 1.8rem;
+        padding: 3rem 0;
+    }
+
+.destacado{
+    display: flex;
+    color: white;
+}
+
+.destacado div span,.destacado div a{
+    display:block
+}
+
+.destacado h2 {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+}
+
+.destacado span {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.destacado a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 165px;
+    transition: all .5s ease;
+}
+
+.destacado a:hover {
+
+    font-size: 1.8rem;
+    color: #1439FF;
+
+}
+
+.destacado img {
+   max-height: 100vh;
+   max-width: 100%;
+}
+
+/* Acerca De */
+.nosotros {
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.acerca {
+    text-align: center;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    
+}
+
+.acerca h1 {
+    padding-bottom: 1.2rem;
+}
+
+.acerca img {
+    margin-top: 1.2rem;
+}
+
+.nosotros img {
+    width: 30%;
+}
+
+.valores,.historia{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* CONTACTO */
+
+
+.mainContacto{
+    width: 40%;
+    margin: 0 auto;
+    color: white;
+    
+}
+
+/* .formulario {
+    display: flex;
+    width: 100%;
+    height: 55vh;
+    background-color: rgb(71, 68, 60);
+    align-items: center;
+    border-radius: .25rem;
+    backdrop-filter: blur(5px);
+} */
+
+
+
+
+
+
+
+
+input {
+    display: block;
+}
+
+
+/* Footer */
+
+footer {
+    background-image: url(../img/footer.jpg);
+    height: 80vh;
+    background-position: center center;
+}
+
+.redes {
+    margin: 0 auto;
+    width: 20%;
+    display: flex;
+    /* background-color: #6666667f; */
+    justify-content: center;
+    position: relative;
+    top: 40%;
+    backdrop-filter: blur(5px);
+}
+
+.redes a {
+    text-decoration: none;
+}
+
+.redes i {
+
+    color: #FF1439;
+    font-size: 5rem;
+    padding: .25rem;
+    transition: all .5s ease-in-out;
+}
+
+.redes i:hover {
+
+    text-shadow: 0 0 20px #FF1439;
+    font-size: 6rem;
+
+}
+
+.copy {
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: -65vh;
+}
