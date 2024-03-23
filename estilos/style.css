@@ -125,6 +125,14 @@ p {
   background-color: #343434;
 }
 
+@media only screen and (max-width: 768px) {
+  .heroIndex a,
+  .atencion a,
+  .comprometidos a,
+  .coleccion a {
+    bottom: -45vh;
+  }
+}
 /* PRODUCTOS */
 .mainProducto {
   text-align: center;
@@ -265,6 +273,11 @@ input {
   display: block;
 }
 
+@media only screen and (max-width: 768px) {
+  .mainContacto {
+    width: 100%;
+  }
+}
 /* Footer */
 footer {
   background-image: url(../img/footer.jpg);

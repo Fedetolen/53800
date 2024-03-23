@@ -140,6 +140,15 @@ p {
   background-color: $color5;
 }
 
+@media only screen and (max-width:768px){
+  .heroIndex a,
+.atencion a,
+.comprometidos a,
+.coleccion a{
+  bottom: -45vh;
+}
+}
+
 /* PRODUCTOS */
 
 .mainProducto {
@@ -281,6 +290,14 @@ label,
 input {
   display: block;
 }
+
+@media only screen and (max-width:768px){
+  .mainContacto{
+    width: 100%;
+  }
+
+}
+
 
 /* Footer */
 
