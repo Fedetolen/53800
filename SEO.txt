@@ -1,0 +1,10 @@
+Optimizaciones:
+
+1- Pasamos las imagenes por un optimizador, en este caso tinyPng.
+2- Eliminamos el codigo basura.
+3- Las imagenes ya contaban con el atributo alt de las entregas pasadas.
+4- Agregamos el favicon.
+5- Agregamos los meta de keywords y description.
+6- Agregamos los media Q faltantes.
+7- Agregamos el title con una descripcion de cada pagina en lugar de un titulo generico
+8- Estos pasos y si me olvido alguno fueron documentados en git.

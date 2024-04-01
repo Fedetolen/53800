@@ -224,6 +224,8 @@ p {
   font-size: 1.5rem;
   margin-top: 165px;
   transition: all 0.5s ease;
+  text-align: center;
+  padding-bottom: 1rem;
 }
 
 .destacado a:hover {
@@ -266,6 +268,14 @@ p {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+}
+
+@media only screen and (max-width:768px){
+
+.historia img, .valores img{
+  margin: 0 auto;
+}
+
 }
 
 /* CONTACTO */
